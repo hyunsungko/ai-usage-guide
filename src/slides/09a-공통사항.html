@@ -1,0 +1,33 @@
+<section data-label="10 공통사항" class="action-common-page">
+  <div class="frame">
+    <div class="page-chrome">
+      <div class="brand"><span class="mark"></span><span>출제분야 · AI 활용 가이드</span></div>
+      <div class="meta">2. AI 활용 상세 행동지침 · 2-1 공통사항</div>
+      <div class="footline"><span></span><span><span class="dot">●</span>&nbsp;&nbsp;10</span></div>
+    </div>
+
+    <h1 class="title">공통사항은 허용된 모델과 데이터 통제 설정에서 시작합니다.</h1>
+    <p class="lead action-subtitle">모델별 절차는 조금씩 다르지만, Settings에서 <strong>LLM 학습 허용</strong> 또는 <strong>모두를 위한 모델 개선 참여</strong> 항목을 해제해야 합니다.</p>
+
+    <div class="action-common-layout">
+      <article class="common-rule-panel">
+        <h2>허용된 LLM과 공통 기준</h2>
+        <div class="allowed-llm-panel">
+          <div class="allowed-model-list" aria-label="허용된 LLM 목록">
+            <span><img src="assets/logo-chatgpt.svg" alt="ChatGPT 로고" />OpenAI GPT</span>
+            <span><img src="assets/logo-claude.svg" alt="Claude 로고" />Anthropic Claude</span>
+            <span><img src="assets/logo-gemini.svg" alt="Google Gemini 로고" />Google Gemini</span>
+            <span><img src="assets/logo-copilot.svg" alt="Microsoft Copilot 로고" />Microsoft Copilot</span>
+          </div>
+          <p class="common-cert-note"><strong>신뢰 기준</strong><span>ISO/IEC 42001:2023(AI Management System) 등 AI 관리체계 인증 또는 공식 준수 범위가 확인되는 사업자만 허용합니다.</span></p>
+          <p class="common-deny-note"><strong>비허용 LLM</strong><span>Grok, DeepSeek, Qwen, GLM, Kimi-K, Minimax 등은 사용하지 않습니다.</span><small>예외: 폐쇄망에서 오픈소스 LLM을 로컬 구동하는 경우는 허용</small></p>
+          <p class="common-deny-note"><strong>Third-party Agent 금지</strong><span>Manus, Genspark, Felo, Skyworks 등 외부 Agent로 문항을 생성하거나 재가공하지 않습니다.</span></p>
+          <p class="common-setup-note">허용 모델이라도 Opt-out(학습 사용 거부) 또는 기업용 데이터 보호 설정 전에는 비공개 출제자료를 입력하지 않습니다.</p>
+        </div>
+      </article>
+      <figure class="optout-flow-figure">
+        <img src="assets/opt-out-data-controls-flow.png" alt="Opt-out 설정 절차 화면" />
+      </figure>
+    </div>
+  </div>
+</section>

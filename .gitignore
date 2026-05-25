@@ -1,0 +1,32 @@
+﻿node_modules/
+
+
+# Local server / automation logs
+.codex-http-*.log
+.codex-http-*.err.log
+.playwright-mcp/
+
+# Temporary verification outputs
+tmp/
+page*.png
+
+# Research and working drafts are kept locally, not in the minimal public deck commit
+ref/
+Phase9_슬라이드v3_브레인스토밍/
+슬라이드v3_design.md
+
+# Keep only assets referenced by the committed deck
+assets/*
+!assets/conditional-ai-share-button-flow.png
+!assets/conditional-rule-icons-sprite.png
+!assets/cover-symbol-ai-assessment.png
+!assets/deny-flow-icons-sprite.png
+!assets/env-card-ai-performance-scoreboard.png
+!assets/env-card-cheat-news-portrait.png
+!assets/env-card-kice-wide.png
+!assets/logo-chatgpt.svg
+!assets/logo-claude.svg
+!assets/logo-copilot.svg
+!assets/logo-gemini.svg
+!assets/opt-out-data-controls-flow.png
+!assets/toc-icons-imagegen-strip.png
