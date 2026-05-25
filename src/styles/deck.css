@@ -6322,6 +6322,18 @@
     color: var(--green);
     font-weight: 850;
   }
+  .closing .closing-repo-link{
+    font-size: 22px;
+    line-height: 1.28;
+    margin-top: 4px;
+    margin-bottom: 2px;
+  }
+  .closing .closing-repo-link a{
+    color: var(--green-2);
+    font-weight: 760;
+    text-decoration: none;
+    word-break: break-all;
+  }
 
   /* section-tab marker on divider slides */
   .toc-tab{
