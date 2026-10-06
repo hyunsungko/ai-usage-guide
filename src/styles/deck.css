@@ -191,7 +191,6 @@
     width: 172px;
     height: 34px;
     display: inline-block;
-    background: url("uploads/kpc-signature-ko-en.png") no-repeat left center / contain;
     flex: 0 0 auto;
   }
   .page-chrome .footline > span:first-child::after{
