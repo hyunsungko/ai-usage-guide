@@ -178,7 +178,7 @@
   }
   .page-chrome .footline > span:first-child{
     min-width: 172px;
-    height: 52px;
+    height: 34px;
     display: inline-flex;
     align-items: center;
     gap: 7px;
@@ -189,9 +189,8 @@
   .page-chrome .footline > span:first-child::before{
     content: "";
     width: 172px;
-    height: 52px;
+    height: 34px;
     display: inline-block;
-    background: url("uploads/deeprootree-logo.png") no-repeat left center / contain;
     flex: 0 0 auto;
   }
   .page-chrome .footline > span:first-child::after{
